@@ -1,0 +1,30 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..900&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+/* CSS links */
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/button.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
